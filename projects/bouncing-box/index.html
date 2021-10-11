@@ -70,8 +70,9 @@
 			turn it around! 
 			*/
 			function update() {
-				
-
+				PositionX = PositionX + 10
+				moveBoxTo(PositionX)
+				points = (0)
 			};
 
 			/* 
@@ -80,8 +81,8 @@
 			the left side of the screen.
 			*/
 			function handleBoxClick() {
-				
-
+			PositionX = 0;	
+				changeBoxText(points);
 
 			};
 		})();

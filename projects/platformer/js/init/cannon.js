@@ -34,11 +34,13 @@
         createCannon("top", 360);
         createCannon("top", 480);
         createCannon("left", 20)
-        createCannon("top", 180, 2)
-        createCannon("top", 60, 2)
-        createCannon("top", 90, 2)
-        createCannon("top", 120, 2)
-        createCannon("top", 150, 2)
+        createCannon("left", 40)
+        createCannon("left", 60)
+        createCannon("left", 80)
+        createCannon("left", 100)
+        createCannon("left", 430, 1000)
+
+        createCannon("top", 180)
 
 
         // ALL YOUR CODE GOES ABOVE HERE ///////////////////////////////////////
