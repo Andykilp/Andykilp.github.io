@@ -5,70 +5,129 @@
         <link rel="stylesheet" type="text/css" href="interface.css" />
     </head>
         <body>
-            
-            <!-- <div onclick="whenClicked()"> -->
-               <button onclick="whenClicked(1)">
-            button
+            <div id = "background"> 
+
+            </div>
+           
+            <div onclick="whenClicked(1)" id = "button">
+              
             <div> 
-                <img scr =  alt = "button">
-                <span id = "clicks">
-                  0
-                 </span>
+                <img src = "https://operationspark.org/assets/images/Robot-Mascot.png" alt = "button" id="buttonpic">
+
             </div>
-            </button>
-                   
+                     
+            </div>
             
-            </div>
-
-
-
 
             <div id = "upgradesMenu">  
-                <button>    
-                <div onclick="buyCursor()"> 
-                    <p> 
-                    cursors 1/s
-                 </p>
-                 
-                 <div id = "cursorCost">
+                  
+
+                <div id = "clicksDisplay">
+                    <span id = "clicks">
+                        0
+                       </span>
+                       </div>
+
+                <div id = "cursor" onclick = "buyCursor()">
+                   <span>
+                       cursors 1/s 
+                   </span>
+                   <div>
+                   <span id = "cursors">
+                    0   
+                </span>
+                <span>
+                    owned
+                </span>
+                </div>
+                <div>
+                <span>
+                    costs
+                </span>
+                <span id = "cursorCost">
                     10
-                 </div>
-    
+                </span>
+                </div>
+               </div>
+                
+
+
+
+
+                <div id = "monkey" onclick = "buyMonkey()">
                     <span>
-                        cursors owned
-                    </span> 
-                    <span id="cursors">
-                    0
+                        monkeys 5/s 
+                    </span>
+                    <div>
+                    <span id = "monkeys">
+                     0   
+                 </span>
+                 <span>
+                     owned
+                 </span>
+                 </div>
+                 <div>
+                 <span>
+                     costs
+                 </span>
+                 <span id = "monkeyCost">
+                     100
+                 </span>
+                 </div>
+                 </div>
+
+
+
+
+
+
+                 <div id = "paperclip" onclick = "buyPaperclip()">
+                    <span>
+                        paperclips 20/s 
+                    </span>
+                    <div>
+                    <span id = "paperclips">
+                     0   
+                 </span>
+                 <span>
+                     owned
+                 </span>
+                 </div>
+                 <div>
+                 <span>
+                     costs
+                 </span>
+                 <span id = "paperclipCost">
+                     1000
+                 </span>
+                 </div>
+                </div>
+       
+                
+
+   <div>
+                    <span id = "clicksPerSecond"> 
+                        0                        
+                    </span>
+                    <span>
+                        /s
                     </span>
                 </div>
-                </button>
-    
-                <button>
-                <div onclick="buyMonkey()"> 
-                    <p> 
-                    monkeys 5/s
-                 </p>
-                 <div id = "monkeyCost">
-                    100
-                 </div>
-                    <span>
-                        monkeys owned
-                    </span> 
-                    <span id="monkeys">
-                    0
-                    </span>
+
+
+
+           
+
                 </div>
-                </button>
-    
+             
+                
+                
                </div>
 
 
 
 
-               <div id = "singleTimeUpgrades">
-                   
-               </div>
-
+               
 
 
 
